@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeLayout"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/edmLayout"
+            android:icon="@drawable/ic_music_note"
+            android:title="EDM" />
+        <item
+            android:id="@+id/tranceLayout"
+            android:icon="@drawable/ic_music_note"
+            android:title="Trance" />
+        <item
+            android:id="@+id/psyLayout"
+            android:icon="@drawable/ic_music_note"
+            android:title="PsyTrance" />
+        <item
+            android:id="@+id/infoLayout"
+            android:icon="@drawable/ic_info"
+            android:title="Info / About" />
+    </group>
+</menu>

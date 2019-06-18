@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/intro_main" />
+
+    <Button
+        android:id="@+id/edmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="50dp"
+        android:layout_toLeftOf="@+id/tranceButton"
+        android:background="@drawable/home_music_buttons"
+        android:drawableTop="@drawable/icon_music_book"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="EDM"
+        android:textColor="#0FEF5F" />
+
+    <Button
+        android:id="@+id/tranceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/home_music_buttons"
+        android:drawableTop="@drawable/icon_music_book"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Trance"
+        android:textColor="#0FEF5F" />
+
+    <Button
+        android:id="@+id/psyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="50dp"
+        android:layout_toEndOf="@+id/tranceButton"
+        android:layout_toRightOf="@+id/tranceButton"
+        android:background="@drawable/home_music_buttons"
+        android:drawableTop="@drawable/icon_music_book"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="PSY"
+        android:textColor="#0FEF5F" />
+</RelativeLayout>

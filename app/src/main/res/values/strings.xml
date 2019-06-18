@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Happyland</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="ti_sto_s_club_life">Tiësto\'s Club Life</string>
+    <string name="episode_001">Episode 001</string>
+    <string name="this_is_happyland">This is HappyLand</string>
+    <string name="psytrance">PsyTrance</string>
+    <string name="info_about">Info / About</string>
+    <string name="edm">EDM</string>
+    <string name="home">Home</string>
+    <string name="trance">Trance</string>
+</resources>
