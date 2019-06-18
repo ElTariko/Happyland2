@@ -14,10 +14,11 @@ public class SplashScreen extends Activity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(SplashScreen.this,MainActivity.class);
-               startActivity(intent);
+                Intent intent = new Intent(SplashScreen.this, MainActivity.class);
+                startActivity(intent);
             }
-        },2000);
+        }, 2000);
+
         /*Thread timerThread = new Thread() {
             public void run() {
                 try {
